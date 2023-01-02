@@ -19,9 +19,10 @@ def ex_task_1(dig):
 
 
 def main():
-    print("\tExtra task №1")
+    print("\tExtra task 1:")
     print(ex_task_1(513))
     print(ex_task_1(111))
+    print(ex_task_1(3082))
 
 
 if __name__ == "__main__":

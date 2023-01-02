@@ -9,10 +9,10 @@ def first_non_repeating_letter(string):
     return None
 
 def main():
-    print("\tTask №2")
-    print(first_non_repeating_letter("treated"))
-    print(first_non_repeating_letter("tREaTed"))
-    print(first_non_repeating_letter("sDdS"))
+    print("\tTask 2:")
+    words = ["treated", "tREaTed", "sDdS"]
+    for word in words:
+        print(word + " -> " + str(first_non_repeating_letter(word)))
 
 if __name__ == "__main__":
     main()

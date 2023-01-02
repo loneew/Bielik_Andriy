@@ -13,8 +13,9 @@ def task_5(str):
 
 
 def main():
-    print("\tTask №5")
+    print("\tTask 5:")
     s = "Fired:Corwill;Wilfred:Corwill;Barney:TornBull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill"
+    print(s + "\n=>")
     task_5(s)
 
 

@@ -13,7 +13,7 @@ def task_4(arr, target):
 
 
 def main():
-    print("\tTask №4")
+    print("\tTask 4:")
     task_4([1, 3, 6, 2, 2, 0, 4, 5], 5)
     task_4([4, 1, 2, 3], 3)
 

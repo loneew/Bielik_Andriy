@@ -1,6 +1,6 @@
 def digital_root(num):
     string_num = str(num)
-    print("\t" + string_num + ":")
+    print(" digital_root(" + string_num + "):")
     while len(string_num) > 1:
         sum = 0
         i = 0
@@ -17,7 +17,7 @@ def digital_root(num):
 
 
 def main():
-    print("\tTask №3")
+    print("\tTask 3:")
     digital_root(942)
     digital_root(132189)
 
